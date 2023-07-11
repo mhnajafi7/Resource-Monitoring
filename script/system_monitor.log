@@ -1,0 +1,125 @@
+2023-06-26 21:01:16
+
+top - 21:01:16 up  5:17,  1 user,  load average: 0.30, 0.08, 0.03
+Tasks: 295 total,   1 running, 294 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12.2 us, 12.2 sy,  0.0 ni, 73.2 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st
+MiB Mem :   3151.4 total,    764.5 free,    936.7 used,   1450.2 buff/cache
+MiB Swap:   2140.0 total,   2140.0 free,      0.0 used.   1946.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1599 mohammd   20   0 4342524 393372 144788 S  16.7  12.2  18:01.42 gnome-shell
+ 196982 mohammd   20   0   24748   4232   3620 R  11.1   0.1   0:00.03 top
+      1 root      20   0  167924  13368   8316 S   0.0   0.4   0:08.15 systemd
+    367 root      19  -1  498140 327920 325536 S   0.0  10.2   1:58.67 systemd-journal
+    420 root      20   0   26972   7224   4672 S   0.0   0.2   0:00.49 systemd-udevd
+    524 systemd+  20   0   14824   6200   5404 S   0.0   0.2   0:34.55 systemd-oomd
+    527 systemd+  20   0   25660  13956   9628 S   0.0   0.4   0:00.61 systemd-resolve
+    528 systemd+  20   0   89376   6744   5888 S   0.0   0.2   0:00.26 systemd-timesyn
+    626 root      20   0  251512   8068   7156 S   0.0   0.3   0:01.19 accounts-daemon
+    633 avahi     20   0    7624   3684   3344 S   0.0   0.1   0:00.33 avahi-daemon
+    637 root      20   0   21032   3264   3008 S   0.0   0.1   0:00.06 cron
+    641 message+  20   0   11096   6796   4136 S   0.0   0.2   0:03.68 dbus-daemon
+    643 root      20   0  272540  19208  16128 S   0.0   0.6   0:03.24 NetworkManager
+    658 root      20   0   82828   3844   3484 S   0.0   0.1   0:01.49 irqbalance
+    663 root      20   0   52620  21004  11704 S   0.0   0.7   0:00.34 networkd-dispat
+    665 root      20   0  254604  11708   8008 S   0.0   0.4   0:07.81 polkitd
+    667 root      20   0  251600   7696   7004 S   0.0   0.2   0:00.08 power-profiles-
+    672 syslog    20   0  222400   6000   4404 S   0.0   0.2   0:28.79 rsyslogd
+    675 root      20   0  949360  48232  20700 S   0.0   1.5   0:08.53 snapd
+    681 root      20   0  248024   7188   6564 S   0.0   0.2   0:00.14 switcheroo-cont
+    684 root      20   0   15444   8108   6912 S   0.0   0.3   0:00.70 systemd-logind
+    687 root      20   0  467056  14164  11060 S   0.0   0.4   0:00.56 udisksd
+    689 root      20   0   16492   5696   4888 S   0.0   0.2   0:00.19 wpa_supplicant
+    743 root      20   0  316948  12176  10324 S   0.0   0.4   0:00.27 ModemManager
+    757 root      20   0   84540  13696  11504 S   0.0   0.4   0:00.15 cupsd
+    782 root      20   0  252744   9580   8408 S   0.0   0.3   0:00.12 gdm3
+    783 root      20   0  129692  23180  14532 S   0.0   0.7   0:00.22 unattended-upgr
+    797 lp        20   0   16284   5208   4448 S   0.0   0.2   0:00.01 dbus
+    886 root      20   0  172616  11152   9736 S   0.0   0.3   0:00.18 cups-browsed
+   1092 root      20   0  253780   9020   7852 S   0.0   0.3   0:00.24 upowerd
+   1190 root      20   0  309728  21064  18156 S   0.0   0.7   0:00.36 packagekitd
+   1359 colord    20   0  256952  13320   9752 S   0.0   0.4   0:00.24 colord
+   1426 root      20   0  329756  11876   9804 S   0.0   0.4   0:00.28 gdm-session-wor
+   1435 mohammd   20   0   17992  10840   8184 S   0.0   0.3   0:02.45 systemd
+   1436 mohammd   20   0  104584   4280      4 S   0.0   0.1   0:00.00 (sd-pam)
+   1442 mohammd    9 -11   51112   6792   5668 S   0.0   0.2   0:00.07 pipewire
+   1443 mohammd   20   0   34996   6696   5596 S   0.0   0.2   0:00.14 pipewire-media-
+   1444 mohammd    9 -11 1171256  25928  20472 S   0.0   0.8   0:05.59 pulseaudio
+   1446 mohammd   20   0   76144  12072  10328 S   0.0   0.4   0:01.29 snapd-desktop-i
+   1448 mohammd   20   0  326160   7792   6816 S   0.0   0.2   0:00.24 gnome-keyring-d
+   1458 mohammd   20   0   12020   8296   4136 S   0.0   0.3   0:02.89 dbus-daemon
+   1460 mohammd   20   0  173924   6272   5784 S   0.0   0.2   0:00.01 gdm-wayland-ses
+   1463 mohammd   20   0  252180   8456   7540 S   0.0   0.3   0:00.09 gvfsd
+   1468 mohammd   20   0  234568  15600  13896 S   0.0   0.5   0:00.07 gnome-session-b
+   1471 mohammd   20   0  380888   6760   6084 S   0.0   0.2   0:00.01 gvfsd-fuse
+   1516 mohammd   39  19  647068  26756  19216 S   0.0   0.8   0:01.49 tracker-miner-f
+   1517 mohammd   20   0  548440   7580   6864 S   0.0   0.2   0:00.16 xdg-document-po
+   1520 mohammd   20   0  247680   6496   6004 S   0.0   0.2   0:00.02 xdg-permission-
+   1552 mohammd   20   0  103444   5116   4684 S   0.0   0.2   0:00.00 gnome-session-c
+   1569 mohammd   20   0  670068  18108  15152 S   0.0   0.6   0:00.42 gnome-session-b
+   1574 mohammd   20   0  548780  10640   8472 S   0.0   0.3   0:00.42 gvfs-udisks2-vo
+   1592 mohammd   20   0  249080   7292   6520 S   0.0   0.2   0:00.07 gvfs-gphoto2-vo
+   1593 mohammd   20   0  309612   7840   7104 S   0.0   0.2   0:00.04 at-spi-bus-laun
+   1606 mohammd   20   0  247996   6860   6300 S   0.0   0.2   0:00.06 gvfs-mtp-volume
+   1607 mohammd   20   0    8428   4508   4040 S   0.0   0.1   0:00.06 dbus-daemon
+   1613 mohammd   20   0  248168   6652   6148 S   0.0   0.2   0:00.05 gvfs-goa-volume
+   1617 mohammd   20   0  576056  40496  33276 S   0.0   1.3   0:00.26 goa-daemon
+   1631 mohammd   20   0  349936  15172  13256 S   0.0   0.5   0:00.09 goa-identity-se
+   1633 mohammd   20   0  326736   8416   7388 S   0.0   0.3   0:01.23 gvfs-afc-volume
+   1699 mohammd   20   0  582780  18080  15620 S   0.0   0.6   0:00.40 gnome-shell-cal
+   1706 mohammd   20   0  952684  26536  22616 S   0.0   0.8   0:00.25 evolution-sourc
+   1711 mohammd   20   0  305968  22456  15300 S   0.0   0.7   0:00.39 snapd-desktop-i
+   1714 mohammd   20   0 1130516  30880  26656 S   0.0   1.0   0:00.51 evolution-calen
+   1718 mohammd   20   0  635336  14344  11872 S   0.0   0.4   0:01.07 xdg-desktop-por
+   1724 mohammd   20   0  460828  28920  20712 S   0.0   0.9   0:00.64 xdg-desktop-por
+   1733 mohammd   20   0  156932   5824   5316 S   0.0   0.2   0:00.03 dconf-service
+   1741 mohammd   20   0  757492  29004  25616 S   0.0   0.9   0:00.26 evolution-addre
+   1749 mohammd   20   0  326408   8824   7628 S   0.0   0.3   0:00.15 gvfsd-trash
+   1765 mohammd   20   0  162680   7256   6576 S   0.0   0.2   0:00.04 at-spi2-registr
+   1771 mohammd   20   0 2537308  27844  23052 S   0.0   0.9   0:00.17 gjs
+   1785 mohammd   20   0  327080  12660   7316 S   0.0   0.4   0:52.43 ibus-daemon
+   1788 mohammd   20   0  321960   7104   6520 S   0.0   0.2   0:00.02 gsd-a11y-settin
+   1790 mohammd   20   0  388820  25516  19748 S   0.0   0.8   0:00.35 gsd-color
+   1797 mohammd   20   0  386988  16616  14612 S   0.0   0.5   0:00.05 gsd-datetime
+   1799 mohammd   20   0  323452   7760   6992 S   0.0   0.2   0:01.34 gsd-housekeepin
+   1804 mohammd   20   0  351572  21608  16856 S   0.0   0.7   0:00.22 gsd-keyboard
+   1811 mohammd   20   0  654468  26524  20960 S   0.0   0.8   0:00.36 gsd-media-keys
+   1817 mohammd   20   0  462060  25652  19880 S   0.0   0.8   0:00.37 gsd-power
+   1822 mohammd   20   0  261388  11896  10436 S   0.0   0.4   0:00.05 gsd-print-notif
+   1826 mohammd   20   0  469392   6744   6112 S   0.0   0.2   0:00.10 gsd-rfkill
+   1834 mohammd   20   0  247824   6504   5984 S   0.0   0.2   0:00.02 gsd-screensaver
+   1836 mohammd   20   0  248840   7676   7052 S   0.0   0.2   0:00.01 ibus-dconf
+   1839 mohammd   20   0  358804  28732  17776 S   0.0   0.9   0:07.50 ibus-extension-
+   1844 mohammd   20   0  477464  10924   9380 S   0.0   0.3   0:00.22 gsd-sharing
+   1849 mohammd   20   0  397564   8400   7512 S   0.0   0.3   0:00.03 gsd-smartcard
+   1850 mohammd   20   0  248796   7800   7164 S   0.0   0.2   0:00.11 ibus-portal
+   1853 mohammd   20   0  330876   9648   8600 S   0.0   0.3   0:00.03 gsd-sound
+   1857 mohammd   20   0  352160  22072  16988 S   0.0   0.7   0:00.22 gsd-wacom
+   1870 mohammd   20   0  816880  66688  51804 S   0.0   2.1   0:00.54 evolution-alarm
+   1889 mohammd   20   0  232264   7068   5440 S   0.0   0.2   0:00.03 gsd-disk-utilit
+   1916 mohammd   20   0  353896  15396  13428 S   0.0   0.5   0:00.18 gsd-printer
+   1950 mohammd   20   0  174564   6948   6352 S   0.0   0.2   0:00.04 gvfsd-metadata
+   1967 mohammd   20   0  175276   8096   7024 S   0.0   0.3   0:16.57 ibus-engine-sim
+   1990 mohammd   20   0 2611044  28352  23188 S   0.0   0.9   0:00.20 gjs
+   1996 mohammd   20   0  355432  24992  17932 S   0.0   0.8   0:00.37 xdg-desktop-por
+   2083 mohammd   20   0   47384  19128  11388 S   0.0   0.6   0:00.08 gnome-terminal
+   2086 mohammd   20   0  394676  27596  20068 S   0.0   0.9   0:00.18 gnome-terminal.
+   2092 mohammd   20   0  588244  65888  47176 S   0.0   2.0   2:10.84 gnome-terminal-
+   2115 mohammd   20   0   22812   5852   4200 S   0.0   0.2   0:00.10 bash
+   2161 mohammd   20   0  505620  31864  23840 S   0.0   1.0   0:01.04 update-notifier
+   3568 mohammd   20   0   23076   6148   4224 S   0.0   0.2   0:00.45 bash
+   4138 mohammd   20   0    7968   5396   4328 S   0.0   0.2   0:00.01 ssh-agent
+   4531 root      20   0  444348  72952  27256 S   0.0   2.3   0:01.88 fwupd
+   4566 mohammd   20   0   22940   5968   4228 S   0.0   0.2   0:00.18 bash
+ 192916 root      20   0   21508   4016   3752 S   0.0   0.1   0:00.19 bash
+ 193041 root      20   0   21508   4028   3764 S   0.0   0.1   0:00.18 bash
+ 196896 root      20   0  311012   9348   8408 S   0.0   0.3   0:00.25 fprintd
+ 196918 mohammd   20   0 2807448  61596  46292 S   0.0   1.9   0:00.52 gjs
+ 196978 mohammd   20   0   21640   4088   3704 S   0.0   0.1   0:00.00 resource_monito
+ 196981 mohammd   20   0   21640   1880   1412 S   0.0   0.1   0:00.00 resource_monito
+ 196983 mohammd   20   0   25508   3488   3252 S   0.0   0.1   0:00.00 awk
+
+The following programs are using more than 10% CPU or memory: 
+top 
+systemd-journal 
+gnome-shell 
